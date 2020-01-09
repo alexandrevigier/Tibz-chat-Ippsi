@@ -9,7 +9,7 @@ const MessageItem = ({ message }) => {
             <h2 className="message-autor">
                 @{message.username}
             </h2>
-            <h3>
+            <h3 className="message-body">
                 <Emoji text={message.body}/>
             </h3>
         </li>

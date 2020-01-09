@@ -17,12 +17,13 @@ const MessageBar = props => {
     return(
         <div>
             <input
+            className="field-chat"
             value={message}
             onChange={handleChange}
             placeholder="Your text"
             type="text"/>
             <br />
-            <button onClick={handleSubmit}>
+            <button onClick={handleSubmit} className="button-chat">
                 Send
             </button>
         </div>

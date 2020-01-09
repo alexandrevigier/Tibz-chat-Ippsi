@@ -3,7 +3,7 @@ import MessageItem from "./messageItem";
 
 const MessageList = ({ messages }) => {
     return(
-        <ul className="chat-design">
+        <ul className="chat-list">
             {messages.map((message, i) =>{
                 return <MessageItem key={i} message={message} />;
             })}

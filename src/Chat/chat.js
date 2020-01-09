@@ -12,8 +12,8 @@ const Chat = () => {
     };
 
     return (
-        <div className="chat-header">
-            <div>
+        <div>
+            <div className="chat-header">
                 Chat
             </div>
                 <MessageList messages={messages}/>
